@@ -25,5 +25,5 @@ jobs:
             cd ~/crm-final-assignment/frontend
             git pull origin main
             npm install
-            npm run dev
+            
           EOF
