@@ -24,6 +24,6 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ubuntu@56.228.16.188 << 'EOF'
             cd ~/crm-final-assignment/frontend
             git pull origin main
-            npm install
+            
             
           EOF
